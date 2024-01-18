@@ -13,8 +13,7 @@ jobs:
     # 工作步驟
     steps:
       # 步驟一：複製程式碼
-      - name: 
-      checkout
+      - name: checkout
         # 使用的 actions/checkout 複製程式碼
         uses: 
           actions/checkout@v3
